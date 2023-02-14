@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.panel{
+    display: block;
+    margin: 10px auto;
+    width: 60%;
+	border: solid #4267b2 1px;
+}
+
+.panel-heading {
+    background-color: #4267b2;
+    padding: 10px;
+    color: white;
+}
+
+.panel-body {
+    padding: 10px;
+    box-sizing: content-box;
+}
+
+.panel-body label {
+    font-weight: bold;
+}
+
+.form-group {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.form-control {
+    display: block;
+    width: 98%;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.btn{
+    padding: 8px;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.btn.btn-success{
+    background-color: #00CC66;
+}
+
+.btn.btn-reset{
+    background-color: #FF9966;
+}
+
+.btn.btn-edit{
+    background-color: wheat;
+    color: #000;
+}
+
+.btn.btn-delete{
+    background-color: #CC0033;
+}
+
+.btn.active:active{
+    padding: 10px;
+    background-color: #333333;
+    color: #fff;
+}
+
+table, th, td{
+    border: 1px solid black;
+    align-items: center;
+    margin: auto;
+}
+
+.table{
+    width: 100%;
+}
+
+.table tr {
+    border-bottom: solid blue 1px;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hệ thống quản lý</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <script src="/main.js"></script>
+    <div class="panel">
+        <div class="panel-heading">
+            <h3>Input product's detail information</h3>
+        </div>
+
+        <div class="panel-body">
+            <div class="form-group">
+                <label>Product Name</label>
+                <input class="form-control" type="text" name = "productName" id="productName" placeholder="Enter product name">
+            </div>
+
+            <div class="form-group">
+                <label>Category</label>
+                <select class="form-control" type="text" id="category"></select>
+            </div>
+
+            <div class="form-group">
+                <label>Price</label>
+                <input class="form-control" type="number" name = "price" id="price" placeholder="0">
+            </div>
+
+            <div class="form-group">
+                <label>Quantity</label>
+                <input class="form-control" type="number" name = "quantity" id="quantity" placeholder="0">
+            </div>
+
+            <div class="form-group">
+                <label>Total Price</label>
+                <input class="form-control" type="text" name = "totalPrice" id="totalPrice" placeholder="0">
+            </div>
+
+            <div class="form-group">
+                <button class="btn btn-success active" type="button" onclick="addProduct()">Add product </button>
+                <button class="btn btn-reset active">Reset</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="panel">
+        <div class="panel-heading">
+            <h3>Product list</h3>
+        </div>
+        <div class="panel-body">
+            <table class="table">
+                <thead>
+                    <tr class="object">
+                        <th>No</th>
+                        <th>Name</th>
+                        <th>Category</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                        <th>Edit</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody id="result"></tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
